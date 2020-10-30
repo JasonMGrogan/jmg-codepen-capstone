@@ -1,0 +1,22 @@
+/* Common styles */
+body {
+    margin: -2px;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: black; */
+    background-image: linear-gradient(to right, dimgrey, black);
+    color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    width: 25px;
+    height: 15px;
+    font-size: 15px;
+    color: gold;
+    display: flex;
+}

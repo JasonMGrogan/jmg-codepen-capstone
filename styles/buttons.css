@@ -1,0 +1,27 @@
+.btn {
+    background-color: #555555;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn i {
+    color: green;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.buttons-wrapper a {
+    text-decoration: none;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}

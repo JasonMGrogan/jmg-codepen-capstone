@@ -1,0 +1,75 @@
+/* Common nav styles */
+.navigation-wrapper {
+    background-color: black;
+    color: white;
+    width: 1200px;
+    height: 100px;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navigation-wrapper > .left-column > .logo  {
+    filter: invert();
+    justify-content: center;
+}
+
+
+.links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.links-wrapper > .nav-link {
+    text-align: left;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links-wrapper > .nav-link2 a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links-wrapper > .nav-link2 i {
+    color: grey;
+}
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.navigation-wrapper > .right-column > .search-icon i {
+    color: #858585;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+}
+

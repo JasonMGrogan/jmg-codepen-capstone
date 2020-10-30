@@ -1,0 +1,74 @@
+
+strong {
+   color: white; 
+}
+
+.wave-icon img {
+    width: 35px;
+    height: 35px;
+    float: none;
+}
+.mid-section { 
+    width: 1200px; 
+    height: 500px; 
+    padding-left: 75px; 
+    padding-top: 75px; 
+    display: flex; 
+    justify-content: space-between;
+}
+.left-column { 
+    padding-left: 20px; 
+}
+.mid-section > .left-column p { 
+    color: rgb(187, 195, 206); 
+    font-size: 2em; 
+}
+.mid-section > .left-column b { 
+    color: rgb(255, 255, 255); 
+    font-style: bold; 
+}
+.mid-section > .left-column > .mid-btns { 
+    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: space-between;
+    padding-left: 2px; 
+}
+.txt-btn-one { 
+    background-color: #37d66caf; 
+    font-size: 2em; 
+    padding: 20px 15px; 
+    border-radius: 3px; 
+    border: 1px solid #76748b93; 
+    outline: none;
+}
+.txt-btn-two { 
+    background-color: #0b0920d5; 
+    color: white; 
+    font-size: 2em; 
+    padding: 20px 15px; 
+    border-radius: 3px; 
+    font-style: bold; 
+    border: 1px solid #76748b93; 
+    outline: none;
+}
+
+
+.mid-section > .right-column > .mid-website {
+    font-size: 20px;
+    color: white;
+    width: 475px;
+    padding-top: 50px;
+    display: block;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+.mid-section > .right-column > .mid-website strong {
+    color: aqua;
+}
+.mid-section > .right-column > .mid-website img{
+    height: 400px;
+    width: 400px;
+}
